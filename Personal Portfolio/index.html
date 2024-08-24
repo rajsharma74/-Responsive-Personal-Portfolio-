@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ec7636c90f.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1><span>R</span>J...</h1>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-sharp fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Software Developer</p>
+                <h1>Hi, I'm <span>Raj</span> <br> from India</h1>
+            </div>
+        </div>
+    </div>
+
+    <! --------------------About ----------- />
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user3.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-tittle"><span>A</span>bout Me</h1>
+                    <p>I am a motivated Computer Science engineer with experience managing diverse projects and teams.
+                        My background in software development, data modeling, and system design informs my innovative
+                        yet pragmatic approach. I am driven by my passion for solving complex technical problems and
+                        creating efficient, scalable solutions. I consider myself a "forever student," eager to build on
+                        my academic foundations in computer science and continuously learn about the latest advancements
+                        in technology through ongoing coursework and self-study.</p>
+
+
+                    <div class="tab-tittle">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experince</p>
+                        <p class="tab-links" onclick="opentab('education')">Eduction</p>
+                    </div>
+                    <div class="tab-contains active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br>Desiging web/app integrfaces</li>
+                            <li><span>System Design</span><br>Delevelop Architecture </li>
+                            <li><span>App Development</span><br>Desiging app integrfaces</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contains" id="experience">
+                        <ul>
+                            <li><span>2024 - Current</span><br> Traing of UX?UX Desiging web/app integrfaces</li>
+                            <li><span>2022- 2023</span><br>Team leader.</li>
+                            <li><span>2018- 2019</span><br>Intership at XYZ</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contains" id="education">
+                        <ul>
+                            <li><span>2025-Current</span><br>Btech CSE</li>
+                            <li><span>2022</span><br>Diploma</li>
+                            <li><span>2019</span><br>Secondary School</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---------------------------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-tittle"><span>M</span>y services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Designer</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum quaerat impedit nobis veniam
+                        laudantium consequatur aliquid neque delectus. Alias tempora asperiores aliquam necessitatibus.
+                        Inventore, consequuntur totam? Tempore explicabo deleniti nemo?</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>Syatem Design</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum quaerat impedit nobis veniam
+                        laudantium consequatur aliquid neque delectus. Alias tempora asperiores aliquam necessitatibus.
+                        Inventore, consequuntur totam? Tempore explicabo deleniti nemo?</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>APPs Designer</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum quaerat impedit nobis veniam
+                        laudantium consequatur aliquid neque delectus. Alias tempora asperiores aliquam necessitatibus.
+                        Inventore, consequuntur totam? Tempore explicabo deleniti nemo?</p>
+                    <a href="#">learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!----------------------------Portfolio----------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-tittle"><span>M</span>y Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est explicabo non ab quia sed? Iure
+                            blanditiis possimus harum distinctio autem?</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est explicabo non ab quia sed? Iure
+                            blanditiis possimus harum distinctio autem?</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3>online Shoping App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est explicabo non ab quia sed? Iure
+                            blanditiis possimus harum distinctio autem?</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!----------------------Contack-->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-tittle"><span>C</span>ontact Me</h1>
+                    <p><i class="fa-sharp fa-solid fa-paper-plane"></i>rajsharma747959@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>7479592128</p>
+                    <div class="social-icons">
+                        <a href="https://github.com/rajsharma74"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/raj-sharma-845b33245/"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.geeksforgeeks.org/user/rajsharmwfd7/"><i
+                                class="fa-brands fa-hackerrank"></i></a>
+                        <a href=""><i class="fa-sharp fa-solid fa-square-code"></i></a>
+                    </div>
+                    <a href="images/Raj Shar CV.pdf" download class="btn btn2">Download CV</a>
+                </div>
+
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Messege" rows="6" placeholder="Your Messege"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright @ raj...<i class="fa-solid fa-heart"></i></p>
+        </div>
+    </div>
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links")
+        var tabcontains = document.getElementsByClassName("tab-contains")
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link")
+            }
+            for (tabcontain of tabcontains) {
+                tabcontain.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemeu = document.getElementById("sidemenu");
+        function openmenu() {
+            sidemeu.style.right = "0";
+
+        }
+        function closemenu() {
+            sidemeu.style.right = "-200px";
+
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwGauaRk_vr0CeW_Jvef-RwYwGtCiBjjp7MkZ1u9Dohu8mfLKtwPBv2TB2lqAI3P5Oc9w/exec'
+        const form = document.forms['submit-to-google-sheet']
+
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Messege sent successfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+</html>
